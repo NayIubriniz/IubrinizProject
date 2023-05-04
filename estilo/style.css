@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+
+}
+h1{
+    color:rgb(75, 142, 152);
+    text-shadow: 3px 3px 3px rgb(14, 50, 56);
+    margin: 0px;
+    
+}
+.sociais button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-top: 0px;
+    border-radius: 5px;
+
+}
+.menu{
+    width: 50%;
+}
+header{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    
+}
+.menu{
+    margin: 0 auto;
+   background-position: center;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+.menu nav a{
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px;
+    position: relative;
+    box-sizing: border-box;
+    color: teal;
+    
+   
+}
+.container{
+    max-width: 1080px;
+}
