@@ -16,3 +16,11 @@ body{
     justify-content: center;
     margin: 0 auto;
 }
+.menu nav a{
+    right: 53%;
+    font-size: 20px;
+    position: relative;
+    box-sizing: border-box;
+    color: teal;
+    top: 10px;
+}

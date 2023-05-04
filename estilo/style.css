@@ -12,10 +12,13 @@ html,body{
 
 }
 h1{
+    
     color:rgb(75, 142, 152);
     text-shadow: 3px 3px 3px rgb(14, 50, 56);
-    margin: 0px;
-    
+    top: 0;
+    left: 10px;
+    position: relative;
+  
 }
 .sociais button{
     width: 30px;
@@ -23,34 +26,60 @@ h1{
     border: none;
     margin-top: 0px;
     border-radius: 5px;
+    border: none;
 
 }
-.menu{
-    width: 50%;
-}
-header{
+.container{
+    position: fixed;
     width: 100%;
-    display: flex;
-    margin: 0 auto;
-    
+    height: 100px;
+    top: 0;
+   
 }
+button{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    bottom: 50%;
+    background-color:#336878;
+    color: aliceblue;
+}
+
+.header-main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   padding: 20px;
+}
+   
+
 .menu{
-    margin: 0 auto;
+   margin: 0 auto;
    background-position: center;
    justify-content: center;
    align-items: center;
    display: flex;
 }
-.menu nav a{
+
+a{
+    top: 5px;
+    right: 30%;
     text-decoration: none;
-    padding-right: 30px;
-    font-size: 20px;
-    position: relative;
-    box-sizing: border-box;
-    color: teal;
-    
-   
 }
-.container{
-    max-width: 1080px;
+
+div{
+    text-align: center;
+    width: 100%;
+}
+
+div.menu{
+    display: inline-block; /* Transforma o link em um bloco */
+    text-align: center; /* Centraliza o link */
+    width: 50%; 
+}
+.sociais >i {
+    right: 80%;
+    justify-content: center;
+   
 }
