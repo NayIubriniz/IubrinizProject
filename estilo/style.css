@@ -9,13 +9,16 @@ html,body{
     width: 100vw;
     height: 100vh;
     background-color: white;
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-y: auto;
 
 }
 h1{
     
     color:rgb(75, 142, 152);
     text-shadow: 3px 3px 3px rgb(14, 50, 56);
-    top: 0;
+    top: 0px;
     left: 10px;
     position: relative;
   
@@ -37,12 +40,13 @@ h1{
    
 }
 button{
-    position: absolute;
-    top: 5px;
-    right: 10px;
+    position: relative;
+    left: 46%;
     bottom: 50%;
     background-color:#336878;
     color: aliceblue;
+    cursor: pointer;
+    
 }
 
 .header-main {
@@ -51,6 +55,14 @@ button{
    align-items: center;
    height: 100px;
    padding: 20px;
+}
+.menu nav a{
+    right: 80%;
+    font-size: 20px;
+    position: fixed;
+    box-sizing: border-box;
+    color: teal;
+    top: 10px;
 }
    
 
@@ -82,4 +94,35 @@ div.menu{
     right: 80%;
     justify-content: center;
    
+}
+main > article {
+    background-color: rgba(255, 255, 255, 0.397);
+    width: 650px;
+    height: 766px;
+    bottom: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+    
+    
+    
+}
+p{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    
+    
+}
+.h2ed{
+    background-color: rgba(3, 3, 3, 0.788);
+    padding: 5px;
+    border-radius: 5px;
+    color: #4e8a9c;
+    text-align: center;
+}
+ 
+h2{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.322);
 }

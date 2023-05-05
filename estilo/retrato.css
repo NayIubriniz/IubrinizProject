@@ -24,3 +24,21 @@ body{
     color: teal;
     top: 10px;
 }
+button{
+    position: relative;
+    left: 40%;
+    bottom: 20px;
+    background-color:#336878;
+    color: aliceblue;
+    
+}
+main{
+    background-color: rgba(255, 255, 255, 0.377);
+    width: 610px;
+    height: 880px;
+    border-radius: 5px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+    padding: 20px;
+    margin: 0px;
+}
