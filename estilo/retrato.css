@@ -33,12 +33,37 @@ button{
     
 }
 main{
-    background-color: rgba(255, 255, 255, 0.377);
-    width: 610px;
-    height: 880px;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 90%;
+    height: 1210px;
     border-radius: 5px;
-    margin-top: 40px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
-    padding: 20px;
-    margin: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 0 auto;
+    margin-right: 40px;
+    margin-top: 30%;
 }
+p{
+    width: 327px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+.h1-BL{
+    color:rgb(75, 142, 152);
+    text-shadow: 3px 3px 3px rgb(14, 50, 56);
+    top: 0;
+    right:40%;
+    text-align: center;
+ 
+}
+.container{
+    
+        height: 100px; /* altura fixa */
+        display: flex;
+        align-items: center; /* centralizar verticalmente */
+        justify-content: center; /* centralizar horizontalmente */
+        right: 23%;
+        top: 23px;
+    }

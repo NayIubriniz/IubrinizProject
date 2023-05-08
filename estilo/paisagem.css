@@ -31,3 +31,31 @@ button{
     color: aliceblue;
     
 }
+main {
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 660px;
+    height: 800px;
+    bottom: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+    margin-right: 40px;
+    margin-top: 15%;
+    
+}
+.h1-BL{
+    color:rgb(75, 142, 152);
+    text-shadow: 3px 3px 3px rgb(14, 50, 56);
+    top: 0px;
+    position: relative;
+
+    
+}
+.container{
+    height: 100px; /* altura fixa */
+    display: flex;
+    align-items: center; /* centralizar verticalmente */
+    justify-content: center; /* centralizar horizontalmente */
+    right: 21%;
+    
+}

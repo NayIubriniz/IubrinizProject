@@ -95,23 +95,25 @@ div.menu{
     justify-content: center;
    
 }
-main > article {
-    background-color: rgba(255, 255, 255, 0.397);
-    width: 650px;
-    height: 766px;
-    bottom: 10px;
-    border-radius: 5px;
-    margin-top: 50px;
+main {
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 660px;
+    height: 866px;
+    border-radius: 2px 2px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+    margin-right: 40px;
+    margin-top: 15%;
+  
+
     
     
     
 }
 p{
     background-color: rgba(255, 255, 255, 0);
-    width: 100%;
+    width: 600px;
     padding: 10px;
-    margin: 0;
+    text-align: center;
     
     
 }
@@ -125,4 +127,19 @@ p{
  
 h2{
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.322);
+}
+.h1-BL{
+    color:rgb(75, 142, 152);
+    text-shadow: 3px 3px 3px rgb(14, 50, 56);
+    top: 10px;
+    left:20%;
+    text-align: center;
+ 
+}
+.container{
+    height: 100px; /* altura fixa */
+    display: flex;
+    align-items: center; /* centralizar verticalmente */
+    justify-content: center; /* centralizar horizontalmente */
+    right: 20%;
 }
