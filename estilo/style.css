@@ -19,7 +19,7 @@ h1{
     color:rgb(75, 142, 152);
     text-shadow: 3px 3px 3px rgb(14, 50, 56);
     top: 0px;
-    left: 10px;
+    left: 9px;
     position: relative;
   
 }
@@ -91,22 +91,19 @@ div.menu{
     width: 50%; 
 }
 .sociais >i {
-    right: 80%;
+    left: 80px;
     justify-content: center;
+    margin-top: 79%;
    
 }
 main {
     background-color: rgba(255, 255, 255, 0.685);
     width: 660px;
-    height: 866px;
+    height: 876px;
     border-radius: 2px 2px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
     margin-right: 40px;
-    margin-top: 15%;
-  
-
-    
-    
+    margin-top: 10%;
     
 }
 p{
@@ -143,3 +140,4 @@ h2{
     justify-content: center; /* centralizar horizontalmente */
     right: 20%;
 }
+
